@@ -45,6 +45,7 @@ void SListPushBack(SListNode** pplist, SLTDateType x)
 // 单链表的头插
 void SListPushFront(SListNode** pplist, SLTDateType x)
 {
+
 	SListNode* tem = BuySListNode(x);
 	if (*pplist == NULL)
 	{
